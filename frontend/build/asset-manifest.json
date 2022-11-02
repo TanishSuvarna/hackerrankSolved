@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1dd14892.css",
+    "main.js": "/static/js/main.48deb041.js",
+    "static/media/background.jpg": "/static/media/background.32315a2e69d6c44617c0.jpg",
+    "static/media/hackerrank.svg": "/static/media/hackerrank.b593e716b13c581bda798c065045a71a.svg",
+    "index.html": "/index.html",
+    "main.1dd14892.css.map": "/static/css/main.1dd14892.css.map",
+    "main.48deb041.js.map": "/static/js/main.48deb041.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dd14892.css",
+    "static/js/main.48deb041.js"
+  ]
+}
