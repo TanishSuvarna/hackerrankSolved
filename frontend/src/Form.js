@@ -20,7 +20,7 @@ const Form = () => {
         let data;
         const x =async()=>{ 
         try{
-              data = await axios.get(`http://localhost:5000/${username}`,{
+              data = await axios.get(`https://hackerranksolved.herokuapp.com/${username}`,{
                 signal: controller.signal
               })
               setError(data.data.check)

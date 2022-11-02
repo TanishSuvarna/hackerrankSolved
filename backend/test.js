@@ -1,6 +1,8 @@
 import express  from "express";
 import axios from "axios";
-import cors from 'cors'
+import cors from 'cors';
+import * as dotenv from 'dotenv';
+dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -67,4 +69,5 @@ const getData =async (req,res) => {
 app.get('/hacker',getData);
 app.get('/allQues/:username',getAllQues);
 app.get('/:username',checkLogin)
-app.listen(5000);
+console.log(process.env.PORT);
+app.listen(process.env.PORT || 5000);

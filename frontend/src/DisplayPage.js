@@ -9,7 +9,7 @@ const DisplayPage = () => {
     const [visible , setVisible] = useState(false);
     useEffect(() => {
        (async()=>{
-            const ques = await axios.get(`http://localhost:5000/allQues/${localStorage.getItem("username")}`)
+            const ques = await axios.get(`https://hackerranksolved.herokuapp.com/allQues/${localStorage.getItem("username")}`)
             setQuestions(ques.data.allQues)
             setTotalQues(ques.data.totalQues);
         })();
