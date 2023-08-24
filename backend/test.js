@@ -7,8 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 axios.defaults.withCredentials = true;
-//01e7f6ca-16a0-4fe6-b007-4f558da0ab08 - user id
-//query ``
+
 const checkLogin = async(req,res) =>{
     const username = req.params.username;
     try {
